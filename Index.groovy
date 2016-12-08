@@ -57,7 +57,7 @@ import org.bonitasoft.engine.command.CommandCriterion;
 import org.bonitasoft.engine.bpm.flownode.ActivityInstance;
 import org.bonitasoft.engine.bpm.process.ProcessDeploymentInfo;
 
-import com.bonitasoft.qrcode.GeneratorQrcode;	
+import org.bonitasoft.qrcode.GeneratorQrcode;	
 
 import java.net.NetworkInterface;
 import java.net.InetAddress;
