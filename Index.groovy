@@ -41,7 +41,6 @@ import org.bonitasoft.engine.session.APISession;
 import org.bonitasoft.engine.api.CommandAPI;
 import org.bonitasoft.engine.api.ProcessAPI;
 import org.bonitasoft.engine.api.IdentityAPI;
-import com.bonitasoft.engine.api.PlatformMonitoringAPI;
 import org.bonitasoft.engine.search.SearchOptionsBuilder;
 import org.bonitasoft.engine.search.SearchResult;
 import org.bonitasoft.engine.bpm.flownode.ActivityInstanceSearchDescriptor;
