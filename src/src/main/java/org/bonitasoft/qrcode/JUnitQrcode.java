@@ -1,4 +1,4 @@
-package com.bonitasoft.qrcode;
+package org.bonitasoft.qrcode;
 
 import java.io.File;
 import java.io.FileNotFoundException;
