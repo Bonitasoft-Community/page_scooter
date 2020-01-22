@@ -36,11 +36,12 @@ import org.bonitasoft.engine.exception.DeletionException;
 import org.bonitasoft.engine.exception.ServerAPIException;
 import org.bonitasoft.engine.exception.UnknownAPITypeException;
 
-import org.bonitasoft.engine.api.TenantAPIAccessor;
+import com.bonitasoft.engine.api.TenantAPIAccessor;
 import org.bonitasoft.engine.session.APISession;
 import org.bonitasoft.engine.api.CommandAPI;
 import org.bonitasoft.engine.api.ProcessAPI;
 import org.bonitasoft.engine.api.IdentityAPI;
+import com.bonitasoft.engine.api.PlatformMonitoringAPI;
 import org.bonitasoft.engine.search.SearchOptionsBuilder;
 import org.bonitasoft.engine.search.SearchResult;
 import org.bonitasoft.engine.bpm.flownode.ActivityInstanceSearchDescriptor;
@@ -56,7 +57,7 @@ import org.bonitasoft.engine.command.CommandCriterion;
 import org.bonitasoft.engine.bpm.flownode.ActivityInstance;
 import org.bonitasoft.engine.bpm.process.ProcessDeploymentInfo;
 
-import org.bonitasoft.qrcode.GeneratorQrcode;	
+import com.bonitasoft.qrcode.GeneratorQrcode;	
 
 import java.net.NetworkInterface;
 import java.net.InetAddress;
