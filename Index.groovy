@@ -26,9 +26,11 @@ import java.sql.DatabaseMetaData;
 import org.apache.commons.lang3.StringEscapeUtils
 
 import org.bonitasoft.engine.identity.User;
-import org.bonitasoft.console.common.server.page.PageContext
-import org.bonitasoft.console.common.server.page.PageController
-import org.bonitasoft.console.common.server.page.PageResourceProvider
+
+import org.bonitasoft.web.extension.page.PageContext;
+import org.bonitasoft.web.extension.page.PageController;
+import org.bonitasoft.web.extension.page.PageResourceProvider;
+
 import org.bonitasoft.engine.exception.AlreadyExistsException;
 import org.bonitasoft.engine.exception.BonitaHomeNotSetException;
 import org.bonitasoft.engine.exception.CreationException;
@@ -57,7 +59,7 @@ import org.bonitasoft.engine.command.CommandCriterion;
 import org.bonitasoft.engine.bpm.flownode.ActivityInstance;
 import org.bonitasoft.engine.bpm.process.ProcessDeploymentInfo;
 
-import com.bonitasoft.qrcode.GeneratorQrcode;	
+import org.bonitasoft.qrcode.GeneratorQrcode;	
 
 import java.net.NetworkInterface;
 import java.net.InetAddress;

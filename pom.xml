@@ -8,7 +8,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.bonitasoft.custompage</groupId>
 	<artifactId>CustomPageScooter</artifactId>
-	<version>1.0.0</version>
+	<version>1.2.0</version>
 
 	<dependencies>
 		<dependency>
@@ -40,7 +40,7 @@
 		<dependency>
 			<groupId>org.bonitasoft.store</groupId>
 			<artifactId>bonita-store</artifactId>
-			<version>1.1.0</version>
+			<version>2.3.0</version>
 		</dependency>
 		
 		<dependency>
